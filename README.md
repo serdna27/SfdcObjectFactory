@@ -21,10 +21,10 @@ Object Name:Candidate__c:
 //we create the config files, this is used to pass default values to columns among other things.
 ObjectFactory.ObjectConfig config=new ObjectFactory.ObjectConfig();
 
-
+//we provide the default value we want to have.
 config.addDefValue('Name','John');
 
-//this will get a random value based on the default values provided
+//this will get a random value based on the default values provided.
 config.addDefValue('status__c',new string[]{'In Progres','Processed','Hold'});
 
 /*we want the age to be also random but only containig ages from 25 to 50 inclusive. 
@@ -36,10 +36,9 @@ List<SObject> objs=new List<SObject>();
 
 ObjectFactory facObj=new ObjectFactory();
 
-//we create 100 record for object Candidate__c
+//we create 100 record for object Candidate__c.
 objs.addAll(facObj.getObjects('Candidate__c',config,100));
 
-//finally we insert those records
+//finally we insert those records.
 insert objs;
-
-``
+```
