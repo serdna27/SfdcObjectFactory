@@ -15,7 +15,7 @@ public class ObjectFactory {
         public boolean useOnlyDefault{get;set;}
         public string excludedCols{
             set{
-                cols=value;
+                cols=value.toLowerCase();
                 List<string> listCols=cols.split(',');
                 excludedColumns=new Set<string>(listCols);
             }
