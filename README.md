@@ -2,6 +2,7 @@
 This tool is to help you out create dummy records for salesforce objects. This repo consists of two classes one is the ObjectFactory 
 which gives you the records containing dummy data and the DataFactory class which allows to create dummy data of almost any kind 
 in salesforce. See the below examples to see how it works:
+## Install
 
 ```java
 /*
