@@ -42,6 +42,6 @@ objs.addAll(facObj.getObjects('Candidate__c',config,100));
 //finally we insert those records.
 insert objs;
 ```
-<a href="https://githubsfdeploy.herokuapp.com?owner=anyei&amp;repo=JPath-SFDC">
+<a href="https://githubsfdeploy.herokuapp.com?owner=serdna27&amp;repo=SfdcObjectFactory">
   <img alt="Deploy to Salesforce" src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" style="max-width:100%;">
 </a>
