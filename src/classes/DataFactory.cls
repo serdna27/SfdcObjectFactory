@@ -63,7 +63,8 @@ public class DataFactory {
     }
     
     public static String getRandomEmail(){
-        return getTextData(getRandomInt(6,10))+'@'+getTextData(getRandomInt(8,12))+'.com';
+        string randomEmail=getTextData(getRandomInt(6,10))+'@'+getTextData(getRandomInt(8,12))+'.com';
+        return randomEmail.trim();
     }
     
     public static List<Integer> getRandomIntN(Integer lower, Integer upper,Integer Qty){
